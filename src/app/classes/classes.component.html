@@ -1,3 +1,8 @@
-<p>
-  classes works!
-</p>
+<h1>Classes To Sign in</h1>
+
+<div>
+  <div *ngFor="let class of classes">
+     <h3><a routerLink='class/{{class.Id}}'>{{class.Name}}</a>, at Classroom {{class.Location</h3>
+      <h4>{{class.Startdate}} to {{class.Enddate}}</h4>
+  </div>
+</div>
