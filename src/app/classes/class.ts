@@ -9,4 +9,8 @@ export class Class {
     Location: string;
     Active: boolean;
     Students: Student[];
+
+    constructor(){
+        this.Active=true;
+    }
 }
