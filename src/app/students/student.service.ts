@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { JsonResponse } from '../json-response';
 import { Student } from './student';
-import { JsonpCallbackContext } from '../../../node_modules/@angular/common/http/src/jsonp';
+import { JsonpCallbackContext } from '@angular/common/http/src/jsonp';
 
 @Injectable({
   providedIn: 'root'

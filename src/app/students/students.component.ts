@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { StudentService } from './student.service';
-import { Router } from '../../../node_modules/@angular/router';
+import { Router } from '@angular/router';
 import { Student } from './student';
 
 @Component({
@@ -11,7 +11,7 @@ import { Student } from './student';
 export class StudentsComponent implements OnInit {
 
   students: Student[];
-  
+
   constructor(private Stusvc: StudentService,private router:Router) { }
 
   ngOnInit() {

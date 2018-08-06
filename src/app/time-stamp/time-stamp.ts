@@ -1,5 +1,5 @@
-import { Student } from "./students/student";
-import { Class } from "./classes/class";
+import { Student } from "../students/student";
+import { Class } from "../classes/class";
 
 export class TimeStamp {
     Id: number;

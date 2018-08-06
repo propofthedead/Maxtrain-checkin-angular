@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ClassesComponent } from './classes/classes.component';
 import { StudentsComponent } from './students/students.component';
-import { CheckInComponent } from './Students/check-in/check-in.component';
+import { CheckInComponent } from './students/check-in/check-in.component';
 import { TimeStampComponent } from './time-stamp/time-stamp.component';
 
 @NgModule({
