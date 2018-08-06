@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ClassesComponent } from './classes/classes.component';
 import { StudentsComponent } from './students/students.component';
 import { CheckInComponent } from './Students/check-in/check-in.component';
+import { TimeStampComponent } from './time-stamp/time-stamp.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ClassesComponent,
     StudentsComponent,
-    CheckInComponent
+    CheckInComponent,
+    TimeStampComponent
   ],
   imports: [
     BrowserModule,
