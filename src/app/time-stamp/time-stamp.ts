@@ -3,11 +3,8 @@ import { Class } from "../classes/class";
 
 export class TimeStamp {
     Id: number;
-    FirstName: string;
-    LastName: string;
-    UserName: string;
-    Pin: string;
-    IsAdmin: boolean;
+    CheckIn: Date;
+    CheckOut:Date;
     Active: boolean;
     StudentId: number;
     Student: Student;
@@ -16,7 +13,7 @@ export class TimeStamp {
     Class: Class;
 
     constructor(){
-        this.IsAdmin=false;
+
         this.Active=true;
     }
 }

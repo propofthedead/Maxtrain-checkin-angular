@@ -34,6 +34,10 @@ export class TimestampService {
     return this.http.post(this.url+"RemoveId",time) as Observable<JsonResponse>;
   }
 
+  TimeStamp(time:TimeStamp) : Observable<JsonResponse>{
+    return this.http.post(this.url+"TimeStamp",time) as Observable<JsonResponse>;
+  }
+
 
   constructor(private http: HttpClient) { }
 }
