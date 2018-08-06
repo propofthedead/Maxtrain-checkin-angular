@@ -11,7 +11,7 @@ import { Class } from './class';
   providedIn: 'root'
 })
 export class ClassesService {
- url="";
+ url="http://localhost:62094/Classes/";
   list(): Observable<JsonResponse>{
     return this.http.get(this.url+"/list") as Observable<JsonResponse>
   }

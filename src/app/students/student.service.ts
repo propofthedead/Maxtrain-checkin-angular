@@ -10,7 +10,7 @@ import { JsonpCallbackContext } from '@angular/common/http/src/jsonp';
 })
 export class StudentService {
 
-  url="";
+  url="http://localhost:62094/Students/";
 
   list(): Observable<JsonResponse>{
     return this.http.get(this.url+"List") as Observable<JsonResponse>;

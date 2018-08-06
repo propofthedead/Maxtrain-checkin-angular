@@ -8,7 +8,7 @@ import { TimeStamp } from './time-stamp';
   providedIn: 'root'
 })
 export class TimestampService {
-  url= "";
+  url= "http://localhost:62094/TimeStamps/";
 
   list(): Observable<JsonResponse>{
     return this.http.get(this.url+"List") as Observable<JsonResponse>;
