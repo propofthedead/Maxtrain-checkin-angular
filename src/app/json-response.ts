@@ -1,6 +1,6 @@
 export class JsonResponse {
     Result: string;
     Message: string;
-    Data: object;
-    Error: object;
+    Data: any;
+    Error: any;
 }
