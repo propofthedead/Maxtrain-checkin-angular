@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { StudentService } from './student.service';
+import { Router } from '../../../node_modules/@angular/router';
+import { Student } from './student';
 
 @Component({
   selector: 'app-students',
@@ -7,7 +10,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StudentsComponent implements OnInit {
 
-  constructor() { }
+  students: Student[];
+  
+  constructor(private Stusvc: StudentService,private router:Router) { }
 
   ngOnInit() {
   }

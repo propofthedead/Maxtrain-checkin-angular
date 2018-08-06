@@ -4,7 +4,7 @@ export class Student {
     Id: number;
     FirstName:string;
     LastName: string;
-    UserName: string;
+    Email: string;
     Pin: string;
     IsAdmin: boolean;
     Active: boolean;
